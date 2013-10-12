@@ -10,10 +10,10 @@ import (
 
 // Individual endpoints
 import (
-	"api/endpoints/api"
-	"api/endpoints/api/v1"
-	"api/endpoints/api/v1/user"
-	"api/endpoints/api/v1/image"
+	"github.com/twoofy/goapi-stable/endpoints/api"
+	"github.com/twoofy/goapi-stable/endpoints/api/v1"
+	"github.com/twoofy/goapi-stable/endpoints/api/v1/user"
+	"github.com/twoofy/goapi-stable/endpoints/api/v1/image"
 )
 
 const POST string = "POST"
