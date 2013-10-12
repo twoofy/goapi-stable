@@ -1,4 +1,4 @@
-package v1
+package api
 
 import (
 	"net/http"
@@ -10,13 +10,13 @@ const GET = true
 
 var Routes = []urlrouter.Route{
 	urlrouter.Route{
-		PathExp: "/api/v1",
+		PathExp: "/api",
 		Dest: Root,
 	},
 }
 
 func Root(w http.ResponseWriter, req *http.Request, params map[string]string) {
-        fmt.Fprintf(w, "Api v1 Root") 
+        fmt.Fprintf(w, "Api Root") 
 }
 
 
